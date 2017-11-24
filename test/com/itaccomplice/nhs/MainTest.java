@@ -20,7 +20,7 @@ public class MainTest {
         System.setOut(new PrintStream(bo));
         Main.main(new String[] {"1", "20"});
         String output = new String(bo.toByteArray()); 
-		assertTrue("Incorrect result.", output.equals(FizBuzzTest.STEP1_EXPECTED_RESULT));
+		assertTrue("Incorrect result.", output.equals(FizBuzzTest.STEP2_EXPECTED_RESULT));
 	}
 	
 	/**

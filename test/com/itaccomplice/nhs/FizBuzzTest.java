@@ -11,8 +11,8 @@ import org.junit.Test;
  */
 public class FizBuzzTest {
 
-	protected static final String STEP1_EXPECTED_RESULT = "1 2 fizz 4 buzz fizz 7 8 fizz buzz 11 "
-			+"fizz 13 14 fizzbuzz 16 17 fizz 19 buzz";
+	protected static final String STEP2_EXPECTED_RESULT = "1 2 luck 4 buzz fizz 7 8 "
+			+ "fizz buzz 11 fizz luck 14 fizzbuzz 16 17 fizz 19 buzz";
 
 	/**
 	 * Basic first test with valid args should not return null.
@@ -27,7 +27,7 @@ public class FizBuzzTest {
 	 */
 	@Test
 	public void testConversionFirstStepExample() {
-		assertEquals("Incorrect result.", STEP1_EXPECTED_RESULT, FizBuzz.convert(1, 20));
+		assertEquals("Incorrect result.", STEP2_EXPECTED_RESULT, FizBuzz.convert(1, 20));
 	}
 	
 	/**
@@ -35,6 +35,6 @@ public class FizBuzzTest {
 	 */
 	@Test
 	public void testConvertWithArgsReversed() {
-		assertEquals("Incorrect result.", STEP1_EXPECTED_RESULT, FizBuzz.convert(20,1));
+		assertEquals("Incorrect result.", STEP2_EXPECTED_RESULT, FizBuzz.convert(20,1));
 	}
 }
