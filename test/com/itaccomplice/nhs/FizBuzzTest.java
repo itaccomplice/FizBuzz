@@ -11,9 +11,9 @@ import org.junit.Test;
  */
 public class FizBuzzTest {
 
-	static final String STEP3_EXPECTED_RESULT = "1 2 luck 4 buzz fizz 7 8 fizz "
-			+ "buzz 11 fizz luck 14 fizzbuzz 16 17 fizz 19 buzz"
-			+ "\nfizz: 4\nbuzz: 3\nfizzbuzz: 1\nluck: 2\nnumber: 10";
+	static final String STEP3_EXPECTED_RESULT = "1 2 lucky 4 buzz fizz 7 8 fizz "
+			+ "buzz 11 fizz lucky 14 fizzbuzz 16 17 fizz 19 buzz"
+			+ "\nfizz: 4\nbuzz: 3\nfizzbuzz: 1\nlucky: 2\nnumber: 10";
 	
 	/**
 	 * Basic first test with valid args should not return null.
